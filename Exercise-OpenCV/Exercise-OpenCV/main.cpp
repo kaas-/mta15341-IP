@@ -14,6 +14,10 @@ int getImage() {
 	return 0;
 }
 
+int PictureThresholds() {
+
+}
+
 int main(int, char)
 {
 	return 0;
