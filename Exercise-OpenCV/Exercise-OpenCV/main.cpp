@@ -6,19 +6,19 @@ using namespace std;
 using namespace cv;
 
 int getImage() {
-	for (int i = 0; i <= 5; i++)
-	{
-		//comment
-		cout << i;
-	}
+	Mat image;
+		image = imread("papir.jpg", 1); //FLAG = 1 = CV_LOAD_IMAGE_COLOR
+
 	return 0;
 }
 
 int PictureThresholds() {
-
+	return 0;
 }
 
 int main(int, char)
 {
+	getImage();
+
 	return 0;
 }
