@@ -6,6 +6,7 @@ using namespace cv;
 int getImage() {
 	for (int i = 0; i <= 5; i++)
 	{
+		//comment
 		cout << i;
 	}
 	return 0;
